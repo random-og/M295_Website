@@ -1,4 +1,4 @@
-.gpt3__navbar {
+.bw__navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,7 +6,7 @@
     padding: 2rem 6rem;
 }
 
-.gpt3__navbar-links {
+.bw__navbar-links {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -18,21 +18,21 @@
     -o-user-select: none;
 }
 
-.gpt3__navbar-links_logo {
+.bw__navbar-links_logo {
     margin: 2rem;
 }
 
-.gpt3__navbar-links_logo img {
+.bw__navbar-links_logo img {
     width: 62px;
     height: 62px
 }
 
-.gpt3__navbar-links_container {
+.bw__navbar-links_container {
     display: flex;
     flex-direction: row;
 }
 
-.gpt3__navbar-sign {
+.bw__navbar-sign {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -43,9 +43,9 @@
     -o-user-select: none;
 }
 
-.gpt3__navbar-links_container p,
-.gpt3__navbar-sign p,
-.gpt3__navbar-menu_container p{
+.bw__navbar-links_container p,
+.bw__navbar-sign p,
+.bw__navbar-menu_container p{
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
@@ -56,8 +56,8 @@
     cursor: pointer;
 }
 
-.gpt3__navbar-sign button,
-.gpt3__navbar-menu_container button {
+.bw__navbar-sign button,
+.bw__navbar-menu_container button {
     padding: 1rem 1rem;
     color: #fff;
     font-family: var(--font-family);
@@ -71,18 +71,18 @@
     cursor: pointer;
 }
 
-.gpt3__navbar-menu {
+.bw__navbar-menu {
     margin-left: 1rem;
 
     display: none;
     position: relative;
 }
 
-.gpt3__navbar-menu svg {
+.bw__navbar-menu svg {
     cursor: pointer;
 }
 
-.gpt3__navbar-menu_container {
+.bw__navbar-menu_container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -105,44 +105,44 @@
     -o-user-select: none;
 }
 
-.gpt3__navbar-menu_container p {
+.bw__navbar-menu_container p {
     margin: 1rem 0;
 }
 
-.gpt3__navbar-menu_container-links-sign {
+.bw__navbar-menu_container-links-sign {
     display: none;
 }
 
 @media screen and (max-width: 1050px) {
- .gpt3__navbar-links_container {
+ .bw__navbar-links_container {
      display: none;
  }
 
- .gpt3__navbar-menu {
+ .bw__navbar-menu {
      display: flex;
  }
 }
 
 @media screen and (max-width: 700px) {
-    .gpt3__navbar {
+    .bw__navbar {
         padding: 2rem 4rem;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .gpt3__navbar {
+    .bw__navbar {
         padding: 2rem;
     }
 
-    .gpt3__navbar-sign {
+    .bw__navbar-sign {
         display: none;
     }
 
-    .gpt3__navbar-menu_container{
+    .bw__navbar-menu_container{
        top: 20px
     }
 
-    .gpt3__navbar-menu_container-links-sign{
+    .bw__navbar-menu_container-links-sign{
         display: block;
     }
 }
