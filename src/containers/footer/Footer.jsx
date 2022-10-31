@@ -14,7 +14,6 @@ const Footer = () => {
             <div className="bw__footer-links">
                 <div className="bw__footer-links_logo">
                     <img src={logo} alt="logo"/>
-                    <p>Im Städtchen 7, 3235 Erlach</p>
                 </div>
                 <div className="bw__footer-links_div">
                     <h4>Social Medias</h4>

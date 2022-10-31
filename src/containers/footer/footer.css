@@ -68,13 +68,6 @@
     margin-bottom: 1rem;
 }
 
-.bw__footer-links_logo p {
-    font-family: var(--font-family);
-    font-size: 12px;
-    line-height: 14px;
-    color: #fff;
-}
-
 .bw__footer-links_div {
     display: flex;
     justify-content: flex-start;
