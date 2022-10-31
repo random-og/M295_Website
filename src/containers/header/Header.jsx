@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
-import { RiEyeLine } from "react-icons/ri";
-import logo from "../../assets/logos/logo_white_large.png"
+import logo  from "../../assets/logos/logo_white_large.png"
+import people  from "../../assets/people.png"
 
 const Header = () => {
     return (
@@ -14,12 +14,12 @@ const Header = () => {
                     <button type="button">Contact Me</button>
                 </div>
                 <div className="gpt3__header-content__people">
-                    <RiEyeLine color="#fff" size={27}/>
-                    <p>1'200 people visited this website in the last 24 hours</p>
+                    <img src={people} alt="people"/>
+                    <p>More than 1'600 people visited this website in the last 24 hours</p>
                 </div>
-                <div className="gpt3__header-img">
-                    <img src={logo} alt="logo"/>
-                </div>
+            </div>
+            <div className="gpt3__header-img">
+                <img src={logo} alt="logo"/>
             </div>
         </div>
     )
