@@ -6,8 +6,8 @@
 .bw__aboutme-image {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: self-start;
     margin-right: 2rem;
 }
 
@@ -49,6 +49,43 @@
     line-height: 30px;
     color: var(--color-text);
     margin-bottom: 2rem;
+}
+
+.bw__aboutme-content_ext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.bw__aboutme-content_ext h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 1rem 0;
+}
+
+.bw__aboutme-content_ext-div p:first-child {
+    font-weight: bold;
+}
+
+.bw__aboutme-content_ext-div p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 4px;
+    color: var(--color-text);
+}
+
+.bw__aboutme-content_ext-div h4 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    margin: 1rem 0;
 }
 
 @media screen and (max-width: 950px) {

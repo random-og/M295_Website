@@ -1,7 +1,7 @@
 import './App.css';
 
-import { Blog, Hobbies, Footer, Header, Possibility, AboutMe, Projects } from "./containers";
-import { CTA, Navbar } from "./components";
+import { Contact, Hobbies, Footer, Header, AboutMe, Projects } from "./containers";
+import { Navbar } from "./components";
 
 function App() {
   return (
@@ -13,9 +13,7 @@ function App() {
       <AboutMe/>
       <Projects/>
       <Hobbies/>
-      <Possibility/>
-      <CTA/>
-      <Blog/>
+      <Contact/>
       <Footer/>
     </div>
   );

@@ -104,10 +104,35 @@
     color: #fff;
 }
 
+.bw__footer-links_div-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: start;
+    background: var(--color-blog);
+    padding: 2rem;
+    position: absolute;
+    top: 415%;
+    right: 10%;
+    min-width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
 @media screen and (max-width: 850px) {
     .bw__footer-heading h1 {
         font-size: 44px;
         line-height: 50px;
+    }
+    .bw__footer-links_div-container {
+        top: 660%;
     }
 }
 
@@ -125,11 +150,19 @@
         font-size: 14px;
         line-height: 20px;
     }
+
+    .bw__footer-links_div-container {
+        top: 610%;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .bw__footer-heading h1 {
         font-size: 27px;
         line-height: 38px;
+    }
+
+    .bw__footer-links_div-container {
+        top: 660%;
     }
 }

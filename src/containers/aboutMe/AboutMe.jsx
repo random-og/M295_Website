@@ -20,45 +20,44 @@ const AboutMe = () => {
                     : <RiArrowUpSLine color="#fff" size={27} onClick={() => setToggleMenu(true)}/>
                 }
                 {toggleMenu &&(
-                    <div>
-                        <h1 className="gradient__text">Lebenslauf</h1>
-                        <div>
+                    <div className="bw__aboutme-content_ext scale-up-ver-top">
+                        <div className="bw__aboutme-content_ext-div">
                             <p>Brendan Demierre</p>
                             <p>Im Städtchen 7,</p>
                             <p>3235 Erlach</p>
                             <p>078 802 52 23</p>
                             <p>brendan.demierre@bwdbern.ch</p>
                         </div>
-                        <div>
+                        <div className="bw__aboutme-content_ext-div">
                             <h4>Personal data</h4>
                             <p>26 september 2004</p>
                             <p>St-Martin (FR), Swiss</p>
                         </div>
-                        <div>
+                        <div className="bw__aboutme-content_ext-div">
                             <h4>School</h4>
                             <p>2011 - 2012 --- Ecole Primaire Vaulruz</p>
                             <p>2012 - 2017 --- Primarschule Erlach</p>
                             <p>2017 - 2020 --- Oberstufe Erlach</p>
                         </div>
-                        <div>
+                        <div className="bw__aboutme-content_ext-div">
                             <h4>Apprenticeship (Not done yet completed)</h4>
                             <p>2020 - 20.. --- BWD IMS Bern</p>
                             <p>Specification: Informatiker Applikationsentwickler EFZ</p>
                         </div>
-                        <div>
+                        <div className="bw__aboutme-content_ext-div">
                             <h4>Languages</h4>
                             <p>German --- Good knowledge</p>
                             <p>French --- Native language</p>
                             <p>Italian --- Good oral knowledge</p>
                             <p>English --- Good knowledge</p>
                         </div>
-                        <div>
+                        <div className="bw__aboutme-content_ext-div">
                             <h4>IT knowledge</h4>
                             <p>Programming languages --- C#, Java, Python, Bash, Ruby</p>
                             <p>Database --- MySQL</p>
                             <p>Website --- HTML, CSS, JS, PHP</p>
                         </div>
-                        <div>
+                        <div className="bw__aboutme-content_ext-div">
                             <h4>Anwender Kenntnisse</h4>
                             <p>Microsoft Office</p>
                             <p>Word, Excel, PowerPoint, Outlook, Teams</p>
