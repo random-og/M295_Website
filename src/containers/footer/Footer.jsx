@@ -11,7 +11,7 @@ const Footer = () => {
                 <h1 className="gradient__text">Do you want to contact me?</h1>
             </div>
             <div className="bw__footer-btn">
-                <p>Contact Me</p>
+            <p><a href="#contact">Contact</a></p>
             </div>
             <div className="bw__footer-links">
                 <div className="bw__footer-links_logo">
@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
                 <div className="bw__footer-links_div">
                     <h4>Get in touch</h4>
-                    <p>Im Städtchen 7, 3235 Erlach</p>
+                    <p>Zieglerstrasse 51, 3007 Bern</p>
                     <p>078 802 52 23</p>
                     <p>demierre.brendan@gmail.com</p>
                 </div>

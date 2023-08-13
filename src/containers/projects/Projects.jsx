@@ -12,8 +12,8 @@ const WhatGPT3 = () => (
             <p>Explore the Projects</p>
         </div>
         <div className="bw__projects-container">
-            <Feature title="Project #1" text="When you do it your way you can go anywhere you choose. In your imagination you can go anywhere you want. If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. If I paint something, I don't want to have to explain what it is. Let your imagination just wonder around when you're doing these things. We must be quiet, soft and gentle. Let's put some highlights on these little trees. The sun wouldn't forget them." />
-            <Feature title="Project #2" text="They say everything looks better with odd numbers of things. But sometimes I put even numbers—just to upset the critics. Everybody needs a friend. Son of a gun. Now then, let's play. This is probably the greatest thing that's ever happened in my life. I think there's an artist hidden in the bottom of every single one of us. A happy cloud." />
+            <Feature title="Cyclone Terminus" text="A Web-App that will be presented as a terminal and will be an online chat. It will retrieve and display the minimum amount of information about the user. For anyone who's bored and has a thirst to meet new people." />
+            <Feature title="Setup de rêve" text="One of my passions is to play video games and from time to time I stream on the Twitch.tv platform. I then set myself the goal of a high-performance gaming setup and a decor that's not easy on the eye." />
             <Feature title="Project #3" text="Of course he's a happy little stone, cause we don't have any other kind. Trees grow however makes them happy. You can work and carry-on and put lots of little happy things in here. All you need to paint is a few tools, a little instruction, and a vision in your mind. Isn't that fantastic that you can create an almighty tree that fast? And maybe a little bush lives there. The light is your friend. Preserve it." />
         </div>
     </div>

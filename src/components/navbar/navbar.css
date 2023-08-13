@@ -71,6 +71,42 @@
     cursor: pointer;
 }
 
+.bw__navbar-sign_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: start;
+    background: var(--color-blog);
+    padding: 2rem;
+    position: absolute;
+    
+    top: 20%;
+    right:35%;
+    min-width: 30%;
+    min-height: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.bw__navbar-sign_container input{
+    padding: 1rem 1rem;
+    color: Black;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 2rem;
+
+    background-color:white;
+    border-radius: 20px;
+}
+
 .bw__navbar-menu {
     margin-left: 1rem;
 
@@ -145,4 +181,79 @@
     .bw__navbar-menu_container-links-sign{
         display: block;
     }
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+    padding: 1rem 1rem;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    background: #B11EE6;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.list-container {
+  display: flex;
+}
+
+.error {
+    color:red;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.input-container label{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.bw__navbar-sign_container-close {
+    color:#fff;
+    margin-left: 85%;
 }

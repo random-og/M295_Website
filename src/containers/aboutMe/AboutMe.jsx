@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./aboutMe.css";
-import me from "../../assets/WhatsApp_Video_2022-03-17_at_10.57_000.jpg"
+import avatar  from "../../assets/avatar.jpg"
 import {RiArrowDownSLine, RiArrowUpSLine} from "react-icons/ri";
 
 const AboutMe = () => {
@@ -8,12 +8,12 @@ const AboutMe = () => {
     return (
         <div className="bw__aboutme section__padding" id="aboutme">
             <div className="bw__aboutme-image">
-                <img src={me} alt="Me"/>
+                <img src={avatar} alt="Me"/>
             </div>
             <div className="bw__aboutme-content">
-                <h4>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla...</h4>
+                <h4>Here a tiny part about me</h4>
                 <h1 className="gradient__text">About Me</h1>
-                <p>This is a fantastic little painting. Sometimes you learn more from your mistakes than you do from your masterpieces. We'll put a happy little sky in here. Use what you see, don't plan it. If there's two big trees invariably sooner or later there's gonna be a little tree. And maybe a little bush lives there. Tree trunks grow however makes them happy.</p>
+                <p>My name is Brendan Demierre and I'm in my 3rd year at IMS and I'm currently looking for an internship for my 4th year.</p>
                 <h4>More about me</h4>
                 {toggleMenu
                     ? <RiArrowDownSLine color="#fff" size={27} onClick={() => setToggleMenu(false)}/>
@@ -23,8 +23,8 @@ const AboutMe = () => {
                     <div className="bw__aboutme-content_ext scale-up-ver-top">
                         <div className="bw__aboutme-content_ext-div">
                             <p>Brendan Demierre</p>
-                            <p>Im Städtchen 7,</p>
-                            <p>3235 Erlach</p>
+                            <p>Zieglerstrasse 51,</p>
+                            <p>3007 Bern</p>
                             <p>078 802 52 23</p>
                             <p>brendan.demierre@bwdbern.ch</p>
                         </div>
@@ -35,13 +35,14 @@ const AboutMe = () => {
                         </div>
                         <div className="bw__aboutme-content_ext-div">
                             <h4>School</h4>
-                            <p>2011 - 2012 --- Ecole Primaire Vaulruz</p>
-                            <p>2012 - 2017 --- Primarschule Erlach</p>
-                            <p>2017 - 2020 --- Oberstufe Erlach</p>
+                            <p>2011 - 2012 --- Primary school (French) Vaulruz</p>
+                            <p>2012 - 2017 --- Primary school (German) Erlach</p>
+                            <p>2017 - 2020 --- Secondary school (German) Erlach</p>
+                            <p>2020 - now --- IMS - Ecole d'informatique (German) Bern</p>
                         </div>
                         <div className="bw__aboutme-content_ext-div">
                             <h4>Apprenticeship (Not done yet completed)</h4>
-                            <p>2020 - 20.. --- BWD IMS Bern</p>
+                            <p>2020 - now --- BWD IMS Bern</p>
                             <p>Specification: Informatiker Applikationsentwickler EFZ</p>
                         </div>
                         <div className="bw__aboutme-content_ext-div">

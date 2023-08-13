@@ -21,7 +21,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="bw__contact section__margin">
+        <div className="bw__contact section__margin" id="contact">
             <div className="bw__contact-heading">
                 <h1 className="gradient__text">Contact Form</h1>
                 <p>We don't really know where this goes - and I'm not sure we really care. It just happens - whether or not you worried about it or tried to plan it. Paint anything you want on the canvas. Create your own world. Use what you see, don't plan it. Put it in, leave it alone.</p>
