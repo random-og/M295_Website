@@ -111,7 +111,10 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .bw__contact-form-input textarea, input {
+    .bw__contact-form-input input {
+        width: 100%;
+    }
+    .bw__contact-form-input textarea {
         width: 100%;
     }
 }
@@ -123,7 +126,11 @@
 }
 
 @media screen and (max-width: 460px) {
-    .bw__contact-form-input textarea, input {
+    .bw__contact-form-input textarea {
+        margin: 1rem
+    }
+
+    .bw__contact-form-input input {
         margin: 1rem
     }
 

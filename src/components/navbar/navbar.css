@@ -181,6 +181,12 @@
     .bw__navbar-menu_container-links-sign{
         display: block;
     }
+
+    .bw__navbar-sign_container{
+        top: 10%;
+        right: -7%;
+        padding: 1rem;
+    }
 }
 
 input[type="text"],
