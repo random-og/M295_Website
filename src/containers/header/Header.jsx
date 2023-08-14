@@ -9,7 +9,7 @@ const Header = () => {
         <div className="bw__header section__padding" id="home">
             <div className="bw__header-content">
                 <h1 className="gradient__text">
-                    <Typewriter text="Welcome to my personal Website." delay={300} infinite />
+                    <Typewriter text="Welcome on my personal Website." delay={300} infinite />
                 </h1>
             </div>
             <div className="bw__header-img">

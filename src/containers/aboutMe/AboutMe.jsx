@@ -26,7 +26,7 @@ const AboutMe = () => {
                             <p>Zieglerstrasse 51,</p>
                             <p>3007 Bern</p>
                             <p>078 802 52 23</p>
-                            <p>brendan.demierre@bwdbern.ch</p>
+                            <p>contact@brendandemierre.com</p>
                         </div>
                         <div className="bw__aboutme-content_ext-div">
                             <h4>Personal data</h4>

@@ -33,8 +33,8 @@ const Footer = () => {
                     {toggleImpressum &&(
                         <div className="bw__footer-links_div-container scale-up-center">
                             <p><strong><i>Kontakt-Adresse</i></strong></p>
-                            <p>Brendan Demierre<br/>Im St&auml;dtchen 7<br/>3235 Erlach<br/>Schweiz</p>
-                            <p>E-Mail:<br/>brendan.demierre@bwdbern.ch</p>
+                            <p>Brendan Demierre<br/>Zieglerstrasse 51,<br/>3007 Bern<br/>Schweiz</p>
+                            <p>E-Mail:<br/>contact@brendandemierre.com</p>
                             <br/>
                             <br/>
                             <p><strong><i>Haftungsausschluss</i></strong></p><p>
@@ -56,7 +56,7 @@ const Footer = () => {
                     <h4>Get in touch</h4>
                     <p>Zieglerstrasse 51, 3007 Bern</p>
                     <p>078 802 52 23</p>
-                    <p>demierre.brendan@gmail.com</p>
+                    <p>contact@brendandemierre.com</p>
                 </div>
             </div>
             <div className="bw__footer-copyright">
