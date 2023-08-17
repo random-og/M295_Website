@@ -24,7 +24,6 @@
 
 .bw__navbar-links_logo img {
     width: 62px;
-    height: 62px
 }
 
 .bw__navbar-links_container {
@@ -210,7 +209,7 @@ input[type="submit"] {
 }
 
 
-.button-container {
+.bw__navbar-sign_container-button {
   display: flex;
   justify-content: center;
 }
@@ -220,7 +219,7 @@ input[type="submit"] {
   display: flex;
 }
 
-.error {
+.bw__navbar-sign_container-input_error {
     color:red;
     font-family: var(--font-family);
     font-weight: 500;
@@ -231,24 +230,14 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-.title {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: capitalize;
-    margin: 0 1rem;
-    cursor: pointer;
-}
-
-.input-container {
+.bw__navbar-sign_container-input {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin: 10px;
 }
 
-.input-container label{
+.bw__navbar-sign_container-input label{
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
@@ -261,5 +250,10 @@ input[type="submit"] {
 
 .bw__navbar-sign_container-close {
     color:#fff;
+    margin-left: 85%;
+}
+
+.bw__navbar-menu_container-links-sign-close {
+    color: #fff;
     margin-left: 85%;
 }

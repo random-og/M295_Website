@@ -6,7 +6,7 @@
 }
 
 body {
-    background: var(--color-bg)
+    background: var(--color-bg);
 }
 
 a {
@@ -127,4 +127,14 @@ a {
     .section__margin {
         margin: 4rem 2rem;
     }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--color-subtext);
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import "./header.css";
 
 const Typewriter = ({ text, delay, infinite }) => {
   const [currentText, setCurrentText] = useState('');
@@ -21,7 +22,7 @@ const Typewriter = ({ text, delay, infinite }) => {
     return () => clearTimeout(timeout);
   }, [currentIndex, delay, infinite, text]);
 
-  return <span>{currentText}</span>;
+  return <span className='unselectable'>{currentText}</span>;
 };
 
 export default Typewriter;

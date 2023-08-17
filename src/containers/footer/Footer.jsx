@@ -1,17 +1,16 @@
 import React, {useState} from "react";
 import "./footer.css";
-import logo from "../../assets/logos/logo_white.svg"
-import {RiArrowDownSLine, RiArrowUpSLine} from "react-icons/ri";
+import logo from "../../assets/OIG.png"
 
 const Footer = () => {
     const [toggleImpressum, setToggleImpressum] = useState(false);
     return (
-        <div className="bw__footer section__padding">
+        <div className="bw__footer section__padding unselectable">
             <div className="bw__footer-heading">
                 <h1 className="gradient__text">Do you want to contact me?</h1>
             </div>
             <div className="bw__footer-btn">
-            <p><a href="#contact">Contact</a></p>
+                <p><a href="#contact">Contact</a></p>
             </div>
             <div className="bw__footer-links">
                 <div className="bw__footer-links_logo">
@@ -46,7 +45,7 @@ const Footer = () => {
                             <p><strong><i>Urheberrechte</i></strong></p>
                             <p>Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf dieser Website, geh&ouml;ren ausschliesslich <strong>Brendan Demierre</strong> oder den speziell genannten Rechteinhabern. F&uuml;r die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung des Urheberrechtstr&auml;gers im Voraus einzuholen.</p>
                             <br/>
-                            Quelle: <a href="https://www.swissanwalt.ch" target="_blank" rel="noopener">SwissAnwalt</a>
+                            Quelle: <a href="https://www.swissanwalt.ch" target="_blank" rel="noreferrer">SwissAnwalt</a>
                         </div>
                     )}
                     <p>Privacy Policy</p>

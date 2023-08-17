@@ -3,7 +3,7 @@ import Feature from '../../components/feature/Feature';
 import './projects.css';
 
 const WhatGPT3 = () => (
-    <div className="bw__projects section__margin" id="projects">
+    <div className="bw__projects section__margin unselectable" id="projects">
         <div className="bw__projects-feature">
             <Feature title="Projects" text="Nature is so fantastic, enjoy it. Let it make you happy. Every single thing in the world has its own personality - and it is up to you to make friends with the little rascals. I thought today we would do a happy little picture. Water's like me. It's laaazy ... Boy, it always looks for the easiest way to do things You better get your coat out, this is going to be a cold painting. Isn't that fantastic that you can make whole mountains in minutes? You can do anything here - the only pre-requisite is that it makes you happy." />
         </div>

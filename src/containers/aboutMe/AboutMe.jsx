@@ -1,14 +1,14 @@
 import React, {useState} from "react";
 import "./aboutMe.css";
-import avatar  from "../../assets/avatar.jpg"
+import foto_me  from "../../assets/brendan_demierre.png"
 import {RiArrowDownSLine, RiArrowUpSLine} from "react-icons/ri";
 
 const AboutMe = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
-        <div className="bw__aboutme section__padding" id="aboutme">
+        <div className="bw__aboutme section__padding unselectable" id="aboutme">
             <div className="bw__aboutme-image">
-                <img src={avatar} alt="Me"/>
+                <img src={foto_me} alt="A foto of me"/>
             </div>
             <div className="bw__aboutme-content">
                 <h4>Here a tiny part about me</h4>
@@ -55,7 +55,7 @@ const AboutMe = () => {
                         <div className="bw__aboutme-content_ext-div">
                             <h4>IT knowledge</h4>
                             <p>Programming languages --- C#, Java, Python, Bash, Ruby</p>
-                            <p>Database --- MySQL</p>
+                            <p>Database --- MySQL, NoSQL</p>
                             <p>Website --- HTML, CSS, JS, PHP</p>
                         </div>
                         <div className="bw__aboutme-content_ext-div">
