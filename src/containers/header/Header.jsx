@@ -12,9 +12,6 @@ const Header = () => {
                     <Typewriter className="unselectable" text="Welcome on my personal Website." delay={300} infinite/>
                 </h1>
             </div>
-            <div className="bw__header-img unselectable">
-                <img src={logo} alt="logo"/>
-            </div>
         </div>
     )
 }

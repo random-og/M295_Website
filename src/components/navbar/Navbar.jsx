@@ -4,6 +4,7 @@ import { RiMenu3Line, RiCloseLine} from "react-icons/ri";
 import logo from "../../assets/OIG.png"
 import test from '../../file/Brendan-Demierre_Files.zip';
 import {RiCloseFill} from "react-icons/ri";
+import { SHA256 } from "crypto-js";
 
 
 const Navbar = () => {
@@ -15,7 +16,7 @@ const Navbar = () => {
     const database = [
       {
         username: "admin",
-        password: "sml12345-"
+        password: "87bf9996d5c320f3f3b18b6a2915ba1f8159c7f7b8ea469da336750bdd92d559"
       },
 
     ];
@@ -24,22 +25,26 @@ const Navbar = () => {
       uname: "invalid username",
       pass: "invalid password"
     };
-  
+    
     const handleSubmit = (event) => {
       event.preventDefault();
       var width = window.innerWidth;
       
       if (width > 500) {
         var { uname, pass } = document.forms[0];
+        var password = pass.value
       }
       else {
         var { uname, pass } = document.forms[1];
+        var password = pass.value
       }
   
       const userData = database.find((user) => user.username === uname.value);
 
+      let hashedPassword = SHA256(password).toString()
+
       if (userData) {
-        if (userData.password !== pass.value) {
+        if (userData.password !== hashedPassword) {
           setErrorMessages({ name: "pass", message: errors.pass });
         } else {
           setIsSubmitted(true);

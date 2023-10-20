@@ -26,7 +26,6 @@ const Hobbies = () => {
         <div className="bw__hobbies section__padding unselectable" id="hobbies">
             <div className="bw__hobbies-heading">
                 <h1 className="gradient__text">The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
-                <p>Know more about my hobbies</p>
             </div>
             <div className="bw__hobbies-container">
                 {featuresData.map((item, index) => (

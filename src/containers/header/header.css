@@ -3,18 +3,16 @@
 }
 
 .bw__header-content {
-    flex: 1;
-    display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin-right: 5rem;
+    padding: 20% 0 20% 0;
 }
 
 .bw__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 62px;
+    font-size: 72px;
     line-height: 75px;
     letter-spacing: -0.04rem;
 }

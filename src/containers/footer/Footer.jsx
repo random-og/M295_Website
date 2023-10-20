@@ -6,12 +6,6 @@ const Footer = () => {
     const [toggleImpressum, setToggleImpressum] = useState(false);
     return (
         <div className="bw__footer section__padding unselectable">
-            <div className="bw__footer-heading">
-                <h1 className="gradient__text">Do you want to contact me?</h1>
-            </div>
-            <div className="bw__footer-btn">
-                <p><a href="#contact">Contact</a></p>
-            </div>
             <div className="bw__footer-links">
                 <div className="bw__footer-links_logo">
                     <img src={logo} alt="logo"/>
