@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# My Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Project is already online on the following domain : brendandemierre.com
+
+Welcome to the GIT of my personal web page. It's not of much interest to the general public, as it's a simple project react.
 
 ## Available Scripts
 

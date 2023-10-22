@@ -82,7 +82,7 @@
     margin-bottom: 1rem;
 }
 
-.bw__footer-links_div p {
+.bw__footer-links_div a, p {
     font-family: var(--font-family);
     font-size: 12px;
     line-height: 14px;
@@ -114,7 +114,7 @@
     background: var(--color-blog);
     padding: 2rem;
     position: absolute;
-    top: 415%;
+    top: 360%;
     right: 10%;
     min-width: 80%;
     border-radius: 5px;

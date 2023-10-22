@@ -4,20 +4,20 @@ import {Feature} from "../../components";
 
 const featuresData = [
     {
-        title: "Hobby #1",
-        text: "Just make little strokes like that. You got your heavy coat out yet? It's getting colder. We want to use a lot pressure while using no pressure at all. We artists are a different breed of people. We're a happy bunch. Only God can make a tree - but you can paint one. Van Dyke Brown is a very nice brown, it's almost like a chocolate brown."
+        title: "Skateboard",
+        text: "Me and a friend started skateboarding together this year. We often meet up at the skatepark to make progress together. What I like about skateboarding is the determination you need to learn this discipline and the happiness you feel when after a lot of training you land a trick."
     },
     {
-        title: "Hobby #2",
-        text: "Just make little strokes like that. You got your heavy coat out yet? It's getting colder. We want to use a lot pressure while using no pressure at all. We artists are a different breed of people. We're a happy bunch. Only God can make a tree - but you can paint one. Van Dyke Brown is a very nice brown, it's almost like a chocolate brown."
+        title: "Gaming",
+        text: "Gaming has been a passion of mine for some time. I love to play video games and I like to play as part of a team. My favorite games are often online games that can be played by several people."
     },
     {
-        title: "Hobby #3",
-        text: "Just make little strokes like that. You got your heavy coat out yet? It's getting colder. We want to use a lot pressure while using no pressure at all. We artists are a different breed of people. We're a happy bunch. Only God can make a tree - but you can paint one. Van Dyke Brown is a very nice brown, it's almost like a chocolate brown."
+        title: "Streaming",
+        text: "Streaming has attracted me for a long time, and in 2020 I launched Twitch.tv. I stream on different games and sometimes with different people. Don't hesitate to pass by ;)"
     },
     {
-        title: "Hobby #4",
-        text: "Just make little strokes like that. You got your heavy coat out yet? It's getting colder. We want to use a lot pressure while using no pressure at all. We artists are a different breed of people. We're a happy bunch. Only God can make a tree - but you can paint one. Van Dyke Brown is a very nice brown, it's almost like a chocolate brown."
+        title: "Anime",
+        text: "This passion was passed on to me by my older brother, who was a huge fan of anime and encouraged me to watch it. I was immediately hooked, and I wasted no time in passing it on to my little sister."
     },
 ]
 
@@ -25,7 +25,7 @@ const Hobbies = () => {
     return (
         <div className="bw__hobbies section__padding unselectable" id="hobbies">
             <div className="bw__hobbies-heading">
-                <h1 className="gradient__text">The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
+                <h1 className="gradient__text">Develop a passion for learning. If you do, you will never cease to grow.</h1>
             </div>
             <div className="bw__hobbies-container">
                 {featuresData.map((item, index) => (

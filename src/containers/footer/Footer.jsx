@@ -12,10 +12,9 @@ const Footer = () => {
                 </div>
                 <div className="bw__footer-links_div">
                     <h4>Social Medias</h4>
-                    <p>Twitch</p>
-                    <p>Twitter</p>
-                    <p>Instagram</p>
-                    <p>Youtube</p>
+                    <a href="https://www.twitch.tv/random_og_">Twitch</a>
+                    <a href="https://twitter.com/GrossBouf_OG">X (Twitter)</a>
+                    <a herf="https://www.linkedin.com/in/brendan-demierre-18b66a297/">LinkedIn</a>
                 </div>
                 <div className="bw__footer-links_div">
                     <h4>Company</h4>
